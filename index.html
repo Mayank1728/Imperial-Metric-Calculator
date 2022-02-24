@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metric to Imperial</title>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">  
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="horizontal-allign">
+            <header>
+                <div class="upper-half">
+                    <h1>Metric to Imperial</h1>
+                    <input id="value" type="number" autofocus>
+                </div>
+            </header>
+            <main>
+                <section class="lower-half">
+                    <div>
+                        <span>Length (Meter/Feet)</span>
+                        <p class="conversion">
+                            <span class="num"></span> Meters = <span id="to-feet"></span> Feet |
+                            <span class="num"></span> Feet = <span id="to-meters"></span> Meters
+                        </p>
+                    </div>
+                    <div>
+                        <span>Volume (Liters/Gallons)</span>
+                        <!-- <p class="conversion">Gallons: <span id="in-gallons"></span></p> -->
+                        <p class="conversion">
+                            <span class="num"></span> Liters = <span id="to-gallons"></span> Gallons |
+                            <span class="num"></span> Gallons = <span id="to-liters"></span> Liters
+                        </p>
+                    </div>
+                    <div>
+                        <span>Mass (Kilograms/Pounds)</span>
+                        <!-- 1 Kg = 2.20 Pounds -->
+                        <!-- <p class="conversion">Pounds: <span id="in-pounds"></span></p> -->
+                        <p class="conversion">
+                            <span class="num"></span> Kilograms = <span id="to-pounds"></span> Pounds |
+                            <span class="num"></span> Pounds = <span id="to-kg"></span> Kg
+                            
+                        </p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
